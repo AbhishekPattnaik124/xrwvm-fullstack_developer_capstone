@@ -1,9 +1,14 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <!-- Link the style sheet here -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+  <title>About Us</title>
 </head>
-<div>
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: darkturquoise; height: 60px;">
     <div class="container-fluid">
       <h2 style="padding-right: 5%;">Dealerships</h2>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,45 +29,53 @@
       </div>
     </div>
   </nav>
-  
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-      <!-- Insert header information here -->
-      </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person1</p>
-          <p>Person1 Title</p>
-          <p class="card-text">Some text that explains the person1 in about 2 short sentences</p>
-          <p>person1@example.com</p>
+
+  <div class="card" style="width: 80%; margin: auto; margin-top: 5%;">
+    <div class="banner" name="about-header" style="text-align: center; padding: 2em; background-color: #f7f7f7;">
+      <h1>About Us</h1>
+      <p>Welcome to Best Cars dealership, home to the best cars in North America. We specialize in offering domestic and imported cars at the most competitive prices.</p>
+    </div>
+
+    <div class="row" style="display: flex; justify-content: center; margin-top: 2em;">
+      <!-- Person 1 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://www.wilsoncenter.org/sites/default/files/styles/480x480/public/media/images/person/james-person-1.jpg" alt="Image of Jane Doe">
+          <div class="card-body">
+            <p class="title">Jane Doe</p>
+            <p>CEO & Founder</p>
+            <p class="card-text">Jane has over 20 years of experience in the automotive industry. She is passionate about delivering the best cars at the best prices.</p>
+            <p>jane.doe@example.com</p>
+          </div>
         </div>
       </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person2</p>
-          <p>Person2 Title</p>
-          <p class="card-text">Some text that explains the person2 in about 2 short sentences</p>
-          <p>person2@example.com</p>
+      <!-- Person 2 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoktP5lHLLgSePrQ9rsQlKfHeIQ1fbMiC7Uw&s" alt="Image of John Smith">
+          <div class="card-body">
+            <p class="title">John Smith</p>
+            <p>Sales Manager</p>
+            <p class="card-text">John ensures every customer has a seamless experience. He oversees sales and customer relationships with dedication.</p>
+            <p>john.smith@example.com</p>
+          </div>
         </div>
       </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person3</p>
-          <p>Person3 Title</p>
-          <p class="card-text">Some text that explains the person3 in about 2 short sentences</p>
-          <p>person3@example.com</p>
+      <!-- Person 3 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://media.istockphoto.com/id/1399565382/photo/young-happy-mixed-race-businessman-standing-with-his-arms-crossed-working-alone-in-an-office.jpg?s=612x612&w=0&k=20&c=buXwOYjA_tjt2O3-kcSKqkTp2lxKWJJ_Ttx2PhYe3VM=" alt="Image of Emily Johnson">
+          <div class="card-body">
+            <p class="title">Emily Johnson</p>
+            <p>Marketing Head</p>
+            <p class="card-text">Emily leads our marketing strategies to connect with car enthusiasts and deliver the latest trends in the automotive market.</p>
+            <p>emily.johnson@example.com</p>
+          </div>
         </div>
       </div>
     </div>
-    </div>
-    </div>
-    
-</div>
-
+  </div>
+</body>
 </html>
